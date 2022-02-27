@@ -1,9 +1,69 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
   margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+
+h1 {
+  font-size: 70px;
+  margin-top: 20%;
+  margin-left: 29%;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 30px;
+}
+li {
+  list-style: none;
+}
+
+.box {
+  background-image: url(../images/soup.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+  width: 100%;
+  font-size: 50px;
+  color: blueviolet;
+}
+.boxdos {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 90%;
+  margin-left: 70px;
+  font-size: 50px;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.imagen {
+  width: 100%;
+  height: 150px;
+  align-content: center;
+  justify-content: space-evenly;
+}
+.boxtres {
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  width: 90%;
+  margin-left: 70px;
+  font-size: 50px;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.boxForth {
+  height: 400px;
+  width: 90%;
+  margin-left: 70px;
+  font-size: 50px;
+  justify-content: space-between;
+  margin-top: 40px;
 }
